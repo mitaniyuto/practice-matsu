@@ -5,6 +5,8 @@ body{
 
 }
 
+
+
 .navbar{
   background-color: gray;
   height: 50px;
@@ -14,17 +16,46 @@ body{
 } 
 
 .page-header{
-  background-color: hotpink;
-  margin-left: auto;
-  margin-right: auto;
-  
+  background-color: wheat;
+  margin: 0 auto;
+  width: 1046px;
 }
+
 
 
 ul{
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 30%;
+  
+  padding: 4px 12px;
+  margin-top: -10px;
+  font-size: 17px;
+}
 
+li{
+  border-right: 1px solid;
+  
+}
+
+
+.topic{
+  background-color: teal;
+  width: 1046px;
+  height: 400px;
+  margin: 0 auto;
+
+}
+
+.home{
+  background-color: grey;
+}
+
+h2{
+  color: white;
+  padding: 8px 15px;
+  font-size: 16px;
+  font-family: 'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN',Osaka,'ＭＳ Ｐゴシック',Arial,sans-serif;
+    
 }
